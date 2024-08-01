@@ -6,6 +6,12 @@ import {
   useLocation,
 } from "react-router-dom";
 import Desktop from "./pages/Desktop";
+import About from "./pages/About";
+import Events from "./pages/Events";
+import Gallery from "./pages/Gallery";
+import Shop from "./pages/Shop";
+import News from "./pages/News";
+import Music from "./pages/Music";
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +52,12 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Desktop />} />
+      <Route path="/About" element={<About />} />
+      <Route path="/Events" element={<Events />} />
+      <Route path="/Gallery" element={<Gallery />} />
+      <Route path="/News" element={<News />} />
+      <Route path="/Music" element={<Music />} />
+      <Route path="/Shop" element={<Shop />} />
     </Routes>
   );
 }

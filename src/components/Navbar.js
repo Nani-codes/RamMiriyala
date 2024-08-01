@@ -1,10 +1,10 @@
 import FrameComponent4 from "./FrameComponent4";
 import PropTypes from "prop-types";
 
-const InstanceContainer = ({ className = "" }) => {
+const Navbar = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[577px] box-border gap-[30px] max-w-full text-left text-15xl text-red-200 font-manrope mq450:pb-[244px] mq450:box-border mq1100:pb-[375px] mq1100:box-border ${className}`}
+      className={`self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[100px] box-border gap-[30px] max-w-full text-left text-15xl text-red-200 font-manrope mq450:pb-[244px] mq450:box-border mq1100:pb-[375px] mq1100:box-border ${className}`}
     >
       <FrameComponent4 />
       <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
@@ -33,8 +33,8 @@ const InstanceContainer = ({ className = "" }) => {
   );
 };
 
-InstanceContainer.propTypes = {
+Navbar.propTypes = {
   className: PropTypes.string,
 };
 
-export default InstanceContainer;
+export default Navbar;
