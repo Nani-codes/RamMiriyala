@@ -63,7 +63,7 @@ const TrainersTitleContainer = ({ className = "" }) => {
             </h1>
           </div>
         </div>
-        <div className="self-stretch h-[62px] flex flex-row items-start justify-end py-0 px-[50px] box-border max-w-full text-red-100 font-manrope mq450:h-auto mq750:pl-[25px] mq750:pr-[25px] mq750:box-border">
+        <a href="/gallery" className="[text-decoration:none] self-stretch h-[62px] flex flex-row items-start justify-end py-0 px-[50px] box-border max-w-full text-red-100 font-manrope mq450:h-auto mq750:pl-[25px] mq750:pr-[25px] mq750:box-border">
           <div className="w-[437px] [backdrop-filter:blur(8px)] bg-black box-border overflow-hidden shrink-0 flex flex-row flex-wrap items-start justify-start pt-5 pb-[13.7px] pr-[17px] pl-5 gap-[10px] min-h-[65px] max-w-[calc(100%_-_0px)] border-[3px] border-solid border-red-100">
             <div className="mb-[1rem] h-[22px] relative font-semibold inline-block mq450:text-lg mq750:text-5xl">
               Go to Gallery
@@ -76,7 +76,7 @@ const TrainersTitleContainer = ({ className = "" }) => {
               />
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </section>
   );

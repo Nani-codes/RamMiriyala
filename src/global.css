@@ -13,3 +13,29 @@ body {
 ::after {
   border-width: 0;
 }
+
+/* src/styles/global.css */
+
+/* Import this in your main CSS file or index.js */
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #FF0000 #F0F0F0;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #F0F0F0;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #FF0000;
+  border-radius: 10px;
+  border: 3px solid #F0F0F0;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #CC0000;
+}

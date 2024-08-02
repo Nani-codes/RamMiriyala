@@ -3,26 +3,36 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      scrollbar: {
+        DEFAULT: {
+          track: 'bg-gray-100',
+          thumb: 'bg-red-500',
+          hover: {
+            track: 'bg-gray-200',
+            thumb: 'bg-red-700',
+          },
+        },
+      },
       colors: {
         black: "#000",
         red: {
-          "100": "#ff2121",
-          "200": "#ff1616",
-          "300": "rgba(255, 22, 22, 0.4)",
-          "400": "rgba(255, 22, 22, 0.2)",
-          "500": "rgba(255, 33, 33, 0.4)",
+          100: "#ff2121",
+          200: "#ff1616",
+          300: "rgba(255, 22, 22, 0.4)",
+          400: "rgba(255, 22, 22, 0.2)",
+          500: "rgba(255, 33, 33, 0.4)",
         },
         wheat: {
-          "100": "#f1d5ae",
-          "200": "rgba(241, 213, 174, 0.4)",
-          "300": "rgba(241, 213, 174, 0.1)",
-          "400": "rgba(241, 213, 174, 0.8)",
+          100: "#f1d5ae",
+          200: "rgba(241, 213, 174, 0.4)",
+          300: "rgba(241, 213, 174, 0.1)",
+          400: "rgba(241, 213, 174, 0.8)",
         },
         goldenrod: "#e49424",
         gray: {
-          "100": "rgba(0, 0, 0, 0.8)",
-          "200": "rgba(0, 0, 0, 0.5)",
-          "300": "rgba(0, 0, 0, 0.4)",
+          100: "rgba(0, 0, 0, 0.8)",
+          200: "rgba(0, 0, 0, 0.5)",
+          300: "rgba(0, 0, 0, 0.4)",
         },
       },
       spacing: {},
@@ -69,7 +79,8 @@ module.exports = {
       },
     },
   },
-  corePlugins: {
-    preflight: false,
-  },
+  plugins: [
+    require("tailwind-scrollbar"),
+    // other plugins...
+  ],
 };

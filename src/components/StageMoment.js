@@ -20,7 +20,7 @@ const StageMoment = ({ className = "" }) => {
           <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
           <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
         </div>
-        <div className="w-[730px] h-[62px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-11xl text-red-200 mq450:h-auto">
+        <a href="/events"className="[text-decoration:none] w-[730px] h-[62px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-11xl text-red-200 mq450:h-auto">
           <div className="w-[393px] [backdrop-filter:blur(8px)] bg-black box-border overflow-hidden shrink-0 flex flex-row flex-wrap items-start justify-start pt-5 pb-[13.7px] pr-[17px] pl-5 gap-[10px] min-h-[65px] max-w-[calc(100%_-_0px)] border-[3px] border-solid border-red-200">
             <div className="mb-[1rem] h-[22px] relative font-semibold inline-block mq450:text-lg mq750:text-5xl">
               All events
@@ -33,7 +33,7 @@ const StageMoment = ({ className = "" }) => {
               />
             </div>
           </div>
-        </div>
+        </a>
         <div className="self-stretch flex flex-row items-start justify-start max-w-full text-center text-15xl">
           <div className="w-[1460px] flex flex-row items-end justify-start py-0 pr-5 pl-0 box-border max-w-full">
             <div className="w-[1440px] flex flex-row items-start justify-start max-w-full">
