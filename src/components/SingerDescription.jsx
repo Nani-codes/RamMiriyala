@@ -32,7 +32,7 @@ const SingerDescription = ({ className = "" }) => {
               band Chowraasta. The primary idea of the band is to sing and
               produce Telugu folk songs in reggae genre
             </div>
-            <div className="self-stretch h-[62px] flex flex-row items-start justify-start py-0 pr-4 pl-[18px] box-border max-w-full text-left text-11xl text-red-200 mq450:h-auto">
+            <div className="self-stretch h-[62px] flex flex-row items-center justify-center py-0 pr-4 pl-[18px] box-border max-w-full text-left text-11xl text-red-200 mq450:h-auto">
               <div className="flex-1 [backdrop-filter:blur(8px)] box-border overflow-hidden flex flex-row items-start justify-start pt-5 pb-[13.7px] pr-[17px] pl-5 gap-[10px] min-h-[65px] max-w-full shrink-0 border-[3px] border-solid border-red-200 mq450:flex-wrap mq450:justify-center">
                 <div className="h-[17.3px] flex-1 flex flex-col items-start justify-start pt-[11px] px-0 pb-0 box-border min-w-[130px]">
                   <img
@@ -41,7 +41,7 @@ const SingerDescription = ({ className = "" }) => {
                     src="/arrow-1-1.svg"
                   />
                 </div>
-                <div className="h-[22px] relative font-semibold inline-block mq450:text-lg mq750:text-5xl">
+                <div className="h-[22px] mb-[30px] relative font-semibold inline-block mq450:text-lg mq750:text-5xl">
                   know more
                 </div>
               </div>

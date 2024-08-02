@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const StageMoment = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-col items-start justify-start pt-0 pb-[245px] px-0 box-border gap-[51px] max-w-full shrink-0 text-left text-61xl text-red-300 font-rammetto-one mq1275:pb-[159px] mq1275:box-border mq750:gap-[25px] mq750:pb-[67px] mq750:box-border mq1100:pb-[103px] mq1100:box-border ${className}`}
+      className={` ml-[10rem] self-stretch flex flex-col items-start justify-start pt-0 pb-[245px] px-0 box-border gap-[51px] max-w-full shrink-0 text-left text-61xl text-red-300 font-rammetto-one mq1275:pb-[159px] mq1275:box-border mq750:gap-[25px] mq750:pb-[67px] mq750:box-border mq1100:pb-[103px] mq1100:box-border ${className}`}
     >
       <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-10 box-border max-w-full">
         <h1 className="m-0 w-[1440px] relative text-inherit font-normal font-inherit inline-block shrink-0 max-w-[103%] mq450:text-5xl mq750:text-21xl">
@@ -16,10 +16,13 @@ const StageMoment = ({ className = "" }) => {
           <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
           <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
           <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
+          <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
+          <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
+          <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
         </div>
         <div className="w-[730px] h-[62px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-11xl text-red-200 mq450:h-auto">
           <div className="w-[393px] [backdrop-filter:blur(8px)] bg-black box-border overflow-hidden shrink-0 flex flex-row flex-wrap items-start justify-start pt-5 pb-[13.7px] pr-[17px] pl-5 gap-[10px] min-h-[65px] max-w-[calc(100%_-_0px)] border-[3px] border-solid border-red-200">
-            <div className="h-[22px] relative font-semibold inline-block mq450:text-lg mq750:text-5xl">
+            <div className="mb-[1rem] h-[22px] relative font-semibold inline-block mq450:text-lg mq750:text-5xl">
               All events
             </div>
             <div className="h-[17.3px] flex-1 flex flex-col items-start justify-start pt-[11px] px-0 pb-0 box-border min-w-[130px]">
@@ -61,10 +64,11 @@ const StageMoment = ({ className = "" }) => {
                           alt=""
                           src="/volume-icon.svg"
                         />
-                      </div>
-                      <div className="relative inline-block min-w-[110px] whitespace-nowrap shrink-0 mq450:text-base">
+                        <div className="relative inline-block min-w-[110px] whitespace-nowrap shrink-0 mq450:text-base">
                         30% off
                       </div>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -75,7 +79,7 @@ const StageMoment = ({ className = "" }) => {
                     className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full z-[2]"
                     loading="lazy"
                     alt=""
-                    src="/.svg"
+                    src="/1.svg"
                   />
                   <div className="w-[72.5px] flex flex-row items-start justify-end py-0 px-px box-border">
                     <div className="h-[60px] flex-1 [backdrop-filter:blur(8px)] bg-black flex flex-col items-start justify-center py-[30px] px-2.5 box-border">

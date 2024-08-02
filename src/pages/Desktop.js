@@ -4,7 +4,7 @@ import SingerDescription from "../components/SingerDescription";
 import StageMoment from "../components/StageMoment";
 import TrainersTitleContainer from "../components/TrainersTitleContainer";
 import Footer from "../components/Footer";
-
+import LandingMusic from "../components/LandingMusic"
 const Desktop = () => {
   return (
     <div className="w-full fit-content relative bg-black overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
@@ -15,6 +15,7 @@ const Desktop = () => {
       />
       <InstanceContainer />
       <FrameComponent2 />
+      <LandingMusic/>
       <SingerDescription />
       <StageMoment />
       <TrainersTitleContainer />

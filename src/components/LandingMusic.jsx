@@ -1,8 +1,8 @@
-import FrameComponent from "./FrameComponent";
+import MusicFrameComponent from "./MusicFrameComponent";
 
 const LandingMusic = () => {
   return (
-    <div className="w-full h-[1144px] relative flex flex-col items-start justify-start pt-0 px-0 pb-[120px] box-border leading-[normal] tracking-[normal] mq450:h-auto">
+    <div className="w-full mt-[16rem] h-[100vh] relative flex flex-col items-start justify-start pt-0 px-0 pb-[12px] box-border leading-[normal] tracking-[normal] mq450:h-auto">
       <main className="self-stretch h-[1024px] bg-white overflow-hidden shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-[152px] box-border max-w-full mq700:pb-16 mq700:box-border mq950:pb-[99px] mq950:box-border">
         <div className="self-stretch overflow-hidden flex flex-row items-start justify-start pt-0 px-0 pb-[567px] box-border bg-[url('/public/frame-2610597@3x.png')] bg-cover bg-no-repeat bg-[top] shrink-0 max-w-full mq950:pb-[369px] mq950:box-border">
           <img
@@ -24,12 +24,12 @@ const LandingMusic = () => {
             </div>
           </header>
         </div>
-        <FrameComponent
-          screenshot20240708At11314="/screenshot-20240708-at-113148am-1@2x.png"
+        <MusicFrameComponent
+          screenshot20240708At11314="/screenshot-20240708-at-113148am-1-1@2x.png"
           alaiBalai="Alai balai"
         />
-        <FrameComponent
-          screenshot20240708At11314="/screenshot-20240708-at-113148am-1-1@2x.png"
+        <MusicFrameComponent
+          screenshot20240708At11314="/screenshot-20240708-at-113148am-1-2@2x.png"
           alaiBalai="Kallu Thaaga"
           propWidth="434px"
         />

@@ -19,7 +19,7 @@ const MusicFrameComponent = ({
     >
       <div className="absolute top-[0px] left-[0px] w-full h-full overflow-hidden">
         <img
-          className="absolute top-[calc(50%_-_350.5px)] left-[calc(50%_-_720px)] w-[1440px] h-[701px] object-cover"
+          className="absolute top-[calc(50%_-_350.5px)]  w-[100%] h-[701px] object-cover"
           alt=""
           src={screenshot20240708At11314}
         />
@@ -35,7 +35,7 @@ const MusicFrameComponent = ({
   );
 };
 
-FrameComponent.propTypes = {
+MusicFrameComponent.propTypes = {
   className: PropTypes.string,
   screenshot20240708At11314: PropTypes.string,
   alaiBalai: PropTypes.string,

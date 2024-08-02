@@ -37,7 +37,7 @@ const Footer = ({ className = "" }) => {
             }}
             onClick={openUserDetails}
           >
-            Join community
+            Join Community
           </Button>
           <div className="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap mq450:justify-center">
             <img
