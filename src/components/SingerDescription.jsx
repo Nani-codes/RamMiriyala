@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const SingerDescription = ({ className = "" }) => {
   return (
     <section
-      className={`mt-[12rem] self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[90px] box-border max-w-full shrink-0 text-center text-31xl text-red-200 font-rammetto-one mq750:pb-[38px] mq750:box-border mq1100:pb-[58px] mq1100:box-border ${className}`}
+      className={`mt-[25rem] self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[90px] box-border max-w-full shrink-0 text-center text-31xl text-red-200 font-rammetto-one mq750:pb-[38px] mq750:box-border mq1100:pb-[58px] mq1100:box-border ${className}`}
     >
       <div className="flex-1 flex flex-row items-start justify-between pt-[17px] px-[100px] pb-[47px] box-border bg-[url('/public/noisygradients@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:pb-5 mq450:box-border mq1275:flex-wrap mq750:pl-[50px] mq750:pr-[50px] mq750:box-border mq1100:pt-5 mq1100:pb-[31px] mq1100:box-border">
         <img

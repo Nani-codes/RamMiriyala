@@ -33,9 +33,9 @@ const FrameComponent2 = ({ className = "" }) => {
 
   return (
     <section
-      className={`w-[1412px] mt-[5rem] ml-[25rem] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full shrink-0 text-center text-15xl text-red-200 font-rammetto-one ${className}`}
+      className={`w-[1412px] mt-[17rem] ml-[4rem] flex flex-row items-start justify-center py-0 px-5 box-bordershrink-0 text-center text-15xl text-red-200 font-rammetto-one ${className}`}
     >
-      <div className="w-[1000px] [backdrop-filter:blur(8px)] bg-gray-200 flex flex-col items-center justify-start gap-[21px] max-w-full z-[1]">
+      <div className="w-[100%] [backdrop-filter:blur(8px)] bg-gray-200 flex flex-col items-center justify-start gap-[21px]  z-[1]">
         <div className="self-stretch relative mq450:text-xl mq750:text-8xl">
           Upcoming event
         </div>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const TrainersTitleContainer = ({ className = "" }) => {
   return (
     <section
-      className={`ml-[8rem] self-stretch flex flex-row items-start justify-start pt-0 px-[50px] pb-[99px] box-border max-w-full shrink-0 text-left text-11xl text-red-200 font-rammetto-one mq450:pb-[27px] mq450:box-border mq1275:pb-16 mq1275:box-border mq750:pl-[25px] mq750:pr-[25px] mq750:box-border mq1100:pb-[42px] mq1100:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start pt-0 px-[50px] pb-[99px] box-border max-w-full shrink-0 text-left text-11xl text-red-200 font-rammetto-one mq450:pb-[27px] mq450:box-border mq1275:pb-16 mq1275:box-border mq750:pl-[25px] mq750:pr-[25px] mq750:box-border mq1100:pb-[42px] mq1100:box-border ${className}`}
     >
       <div className="flex-1 flex flex-col items-start justify-start gap-[59px] max-w-full mq750:gap-[29px]">
         <div className="self-stretch flex flex-col items-start justify-start gap-[40px] text-center text-61xl text-red-500 mq750:gap-[20px]">

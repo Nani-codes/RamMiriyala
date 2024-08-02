@@ -4,15 +4,15 @@ import PropTypes from "prop-types";
 const StageMoment = ({ className = "" }) => {
   return (
     <section
-      className={` ml-[10rem] self-stretch flex flex-col items-start justify-start pt-0  px-0 box-border gap-[51px] max-w-full shrink-0 text-left text-61xl text-red-300 font-rammetto-one mq1275:pb-[159px] mq1275:box-border mq750:gap-[25px] mq750:pb-[67px] mq750:box-border mq1100:pb-[103px] mq1100:box-border ${className}`}
+      className={` self-stretch flex flex-col items-start justify-start pt-0  px-0 box-border gap-[51px] max-w-full shrink-0 text-left text-61xl text-red-300 font-rammetto-one mq1275:pb-[159px] mq1275:box-border mq750:gap-[25px] mq750:pb-[67px] mq750:box-border mq1100:pb-[103px] mq1100:box-border ${className}`}
     >
       <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-10 box-border max-w-full">
         <h1 className="m-0 w-[100%] relative text-inherit font-normal font-inherit inline-block shrink-0 max-w-[103%] mq450:text-5xl mq750:text-21xl">
           NEVER MISS A MOMENT ON STAGE
         </h1>
       </div>
-      <div className="w-[1510px] flex flex-col items-end justify-start gap-[80px] max-w-[105%] shrink-0 text-5xl text-wheat-100 font-manrope mq450:gap-[20px] mq750:gap-[40px]">
-        <div className="w-[1370px] overflow-x-auto flex flex-row items-center justify-start py-0 pr-0 pl-5 box-border gap-[50px] max-w-full mq750:gap-[25px]">
+      <div className="  w-[100%] flex flex-col items-end justify-start gap-[80px] max-w-[100%] shrink-0 text-5xl text-wheat-100 font-manrope mq450:gap-[20px] mq750:gap-[40px]">
+        <div className=" w-[100%] overflow-x-auto flex flex-row items-center justify-start py-0 pr-0 pl-5 box-border gap-[50px] max-w-full mq750:gap-[25px]">
           <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
           <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
           <FrameComponent1 emptyOne="/frame-2610613@2x.png" />
