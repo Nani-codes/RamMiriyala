@@ -9,7 +9,7 @@ import MusicScroller from "../components/MusicScroller"
 import Navbar from "../components/Navbar"
 function Music() {
   return (
-    <div style={{"position": "relative","width": "100%","height": "max-content", "background":"#000000"}}>
+    <div style={{"position": "relative","width": "100%","height": "fit-content", "background":"#000000"}}>
 
       <Navbar/>
       <MusicScroller/>

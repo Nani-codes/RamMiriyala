@@ -2,7 +2,7 @@ import React from "react";
 // import { ReactComponent as Mattini } from 'Frame 2610715mattini.svg';
 function MusicScroller() {
   return (
-    <div class="w-full relative bg-black overflow-hidden flex flex-col items-start justify-start gap-[30px] leading-[normal] tracking-[normal] text-red-200 font-rammetto-one">
+    <div class="mt-[10rem] ml-[8rem] w-full relative bg-black flex flex-col items-start justify-start gap-[30px] leading-[normal] tracking-[normal] text-red-200 font-rammetto-one">
       <main class="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full shrink-0">
           <div class="self-stretch flex flex-col items-start justify-start gap-[30px] shrink-0 max-w-full text-5xl font-rammetto-one">
             <div class="self-stretch border-wheat-200 border-b-[1px] border-solid box-border flex flex-row items-center justify-start gap-10 max-w-full text-[32px] gap-5 mq1050:flex-wrap">
@@ -87,7 +87,7 @@ function MusicScroller() {
                 class="w-[387px] relative max-h-full object-cover max-w-full mq1050:flex-1"
                 loading="lazy"
                 alt=""
-                src="/screenshot-20240708-at-113148am-1@2x.png"
+                src="/screenshot-20240708-at-113148am-1-2@2x.png"
               />
 
               <div class="flex-1 flex flex-col items-start justify-start gap-2.5 min-w-[436px] max-w-full mq750:min-w-full">

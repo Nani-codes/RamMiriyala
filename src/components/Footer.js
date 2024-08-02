@@ -22,7 +22,7 @@ const Footer = ({ className = "" }) => {
       >
         <div className="w-[350px] flex flex-col items-start justify-start gap-[42px] max-w-full mq450:gap-[21px]">
           <Button
-            className="self-stretch h-20 cursor-pointer"
+            className="text-9xl self-stretch h-20 cursor-pointer"
             disableElevation
             variant="contained"
             sx={{

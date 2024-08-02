@@ -12,12 +12,12 @@ function About() {
       style={{
         position: "relative",
         width: "100%",
-        height: "100vh",
+        height: "fit-content",
         background: "#000000",
       }}
     >
       <Navbar />
-      <div class="w-full relative bg-black overflow-hidden flex flex-col items-start justify-start pt-[63px] px-0 pb-[70px] box-border gap-[58px] leading-[normal] tracking-[normal] text-left text-[34px]  font-rammetto-one gap-[29px]">
+      <div class="mt-[10rem] ml-[8rem] w-full relative bg-black overflow-hidden flex flex-col items-start justify-start pt-[63px] px-0 pb-[70px] box-border gap-[58px] leading-[normal] tracking-[normal] text-left text-[34px]  font-rammetto-one gap-[29px]">
         <section class="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-center text-xl text-wheat-100 font-manrope">
           <div class="w-[1040px] flex flex-row  items-start justify-start gap-[26px] max-w-full mq1050:flex-wrap">
             <img

@@ -6,12 +6,12 @@ function Events() {
       style={{
         position: "relative",
         width: "100%",
-        height: "100vh",
+        height: "fit-content",
         background: "#000000",
       }}
     >
       <Navbar />
-      <div class="w-full h-[1024px] relative bg-black overflow-hidden flex flex-row items-start justify-start pt-[0px] px-[172px] pb-0 box-border leading-[normal] tracking-[normal] text-left text-[34px] text-red-100 font-rammetto-one lg:pl-[86px] lg:pr-[86px] lg:box-border mq1050:h-auto mq450:pl-5 mq450:pr-5 mq450:box-border mq750:pl-[43px] mq750:pr-[43px] mq750:box-border">
+      <div class="mt-[10rem] ml-[8rem] w-full h-[1024px] relative bg-black overflow-hidden flex flex-row items-start justify-start pt-[0px] px-[172px] pb-0 box-border leading-[normal] tracking-[normal] text-left text-[34px] text-red-100 font-rammetto-one lg:pl-[86px] lg:pr-[86px] lg:box-border mq1050:h-auto mq450:pl-5 mq450:pr-5 mq450:box-border mq750:pl-[43px] mq750:pr-[43px] mq750:box-border">
         <main class="w-[1040px] flex flex-col items-start justify-start pt-0 px-0 pb-[47px] box-border gap-5 min-h-[1067px] max-w-[calc(100%_-_0px)] shrink-0 mq1050:pb-[31px] mq1050:box-border mq450:pb-5 mq450:box-border">
           <header class="self-stretch border-red-200 border-b-[1px] border-solid box-border flex flex-row items-center justify-start gap-10 top-[0] z-[99] sticky max-w-full text-center text-5xl text-red-100 font-rammetto-one gap-5">
             <img
@@ -27,11 +27,11 @@ function Events() {
                   <a class="[text-decoration:none] relative text-[inherit] inline-block min-w-[68px] whitespace-nowrap">
                     19th
                   </a>
-                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat">
+                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat-100">
                     July
                   </a>
                 </div>
-                <div class="flex-1 flex flex-col items-start justify-start text-left text-wheat font-manrope">
+                <div class="flex-1 flex flex-col items-start justify-start text-left text-wheat-100 font-manrope">
                   <div class="relative leading-[41px] font-semibold whitespace-nowrap mq1050:hidden">
                     Live @ Grease Monkey
                   </div>
@@ -68,11 +68,11 @@ function Events() {
                   <a class="[text-decoration:none] relative text-[inherit] inline-block min-w-[75px] mq450:text-lgi">
                     20th
                   </a>
-                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat">
+                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat-100">
                     July
                   </a>
                 </div>
-                <div class="flex-1 flex flex-col items-start justify-start min-w-[220px] max-w-full text-left text-wheat font-manrope">
+                <div class="flex-1 flex flex-col items-start justify-start min-w-[220px] max-w-full text-left text-wheat-100 font-manrope">
                   <div class="relative leading-[41px] font-semibold mq450:text-lgi mq450:leading-[33px]">
                     Soul Sunday @ Hard rock cafe
                   </div>
@@ -108,11 +108,11 @@ function Events() {
                   <a class="[text-decoration:none] self-stretch relative text-[inherit] inline-block min-w-[75px] mq450:text-lgi">
                     27th
                   </a>
-                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat">
+                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat-100">
                     July
                   </a>
                 </div>
-                <div class="flex-1 flex flex-col items-start justify-start min-w-[183px] text-left text-wheat font-manrope">
+                <div class="flex-1 flex flex-col items-start justify-start min-w-[183px] text-left text-wheat-100 font-manrope">
                   <div class="relative leading-[41px] font-semibold mq450:text-lgi mq450:leading-[33px]">
                     @ Odeum by Prism
                   </div>
@@ -148,11 +148,11 @@ function Events() {
                   <a class="[text-decoration:none] self-stretch relative text-[inherit] inline-block min-w-[75px] mq450:text-lgi">
                     28th
                   </a>
-                  <a class="[text-decoration:none] self-stretch relative text-xl font-light font-manrope text-wheat mq450:text-base">
+                  <a class="[text-decoration:none] self-stretch relative text-xl font-light font-manrope text-wheat-100 mq450:text-base">
                     July
                   </a>
                 </div>
-                <div class="flex-1 flex flex-col items-start justify-start min-w-[226px] max-w-full text-left text-wheat font-manrope">
+                <div class="flex-1 flex flex-col items-start justify-start min-w-[226px] max-w-full text-left text-wheat-100 font-manrope">
                   <div class="relative leading-[41px] font-semibold mq450:text-lgi mq450:leading-[33px]">
                     Sing with me @ Heart cup cafe
                   </div>
@@ -188,11 +188,11 @@ function Events() {
                   <a class="[text-decoration:none] w-[76px] relative text-[inherit] inline-block min-w-[76px] mq450:text-lgi">
                     09th
                   </a>
-                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat">
+                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat-100">
                     Aug
                   </a>
                 </div>
-                <div class="flex-1 flex flex-col items-start justify-start min-w-[165px] text-left text-wheat font-manrope">
+                <div class="flex-1 flex flex-col items-start justify-start min-w-[165px] text-left text-wheat-100 font-manrope">
                   <div class="relative leading-[41px] font-semibold mq450:text-lgi mq450:leading-[33px]">
                     Live @ Grease Monkey
                   </div>
@@ -228,11 +228,11 @@ function Events() {
                   <a class="[text-decoration:none] relative text-[inherit] inline-block min-w-[68px] mq450:text-lgi">
                     10th
                   </a>
-                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat">
+                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat-100">
                     Aug
                   </a>
                 </div>
-                <div class="flex-1 flex flex-col items-start justify-start min-w-[220px] max-w-full text-left text-wheat font-manrope">
+                <div class="flex-1 flex flex-col items-start justify-start min-w-[220px] max-w-full text-left text-wheat-100 font-manrope">
                   <div class="relative leading-[41px] font-semibold mq450:text-lgi mq450:leading-[33px]">
                     Soul Sunday @ Hard rock cafe
                   </div>
@@ -268,11 +268,11 @@ function Events() {
                   <a class="[text-decoration:none] relative text-[inherit] inline-block min-w-[75px] mq450:text-lgi">
                     07th
                   </a>
-                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat">
+                  <a class="[text-decoration:none] self-stretch relative text-lg font-light font-manrope text-wheat-100">
                     Sep
                   </a>
                 </div>
-                <div class="flex-1 flex flex-col items-start justify-start min-w-[183px] text-left text-wheat font-manrope">
+                <div class="flex-1 flex flex-col items-start justify-start min-w-[183px] text-left text-wheat-100 font-manrope">
                   <div class="relative leading-[41px] font-semibold mq450:text-lgi mq450:leading-[33px]">
                     @ Odeum by Prism
                   </div>
@@ -308,11 +308,11 @@ function Events() {
                   <a class="[text-decoration:none] self-stretch relative text-[inherit] inline-block min-w-[75px] mq450:text-lgi">
                     28th
                   </a>
-                  <a class="[text-decoration:none] self-stretch h-[27px] relative text-xl font-light font-manrope text-wheat inline-block mq450:text-base">
+                  <a class="[text-decoration:none] self-stretch h-[27px] relative text-xl font-light font-manrope text-wheat-100 inline-block mq450:text-base">
                     July
                   </a>
                 </div>
-                <div class="flex-1 flex flex-col items-start justify-start min-w-[226px] max-w-full text-left text-wheat font-manrope">
+                <div class="flex-1 flex flex-col items-start justify-start min-w-[226px] max-w-full text-left text-wheat-100 font-manrope">
                   <div class="relative leading-[41px] font-semibold mq450:text-lgi mq450:leading-[33px]">
                     Sing with me @ Heart cup cafe
                   </div>

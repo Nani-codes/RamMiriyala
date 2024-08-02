@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 const StageMoment = ({ className = "" }) => {
   return (
     <section
-      className={` ml-[10rem] self-stretch flex flex-col items-start justify-start pt-0 pb-[245px] px-0 box-border gap-[51px] max-w-full shrink-0 text-left text-61xl text-red-300 font-rammetto-one mq1275:pb-[159px] mq1275:box-border mq750:gap-[25px] mq750:pb-[67px] mq750:box-border mq1100:pb-[103px] mq1100:box-border ${className}`}
+      className={` ml-[10rem] self-stretch flex flex-col items-start justify-start pt-0  px-0 box-border gap-[51px] max-w-full shrink-0 text-left text-61xl text-red-300 font-rammetto-one mq1275:pb-[159px] mq1275:box-border mq750:gap-[25px] mq750:pb-[67px] mq750:box-border mq1100:pb-[103px] mq1100:box-border ${className}`}
     >
       <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-10 box-border max-w-full">
-        <h1 className="m-0 w-[1440px] relative text-inherit font-normal font-inherit inline-block shrink-0 max-w-[103%] mq450:text-5xl mq750:text-21xl">
+        <h1 className="m-0 w-[100%] relative text-inherit font-normal font-inherit inline-block shrink-0 max-w-[103%] mq450:text-5xl mq750:text-21xl">
           NEVER MISS A MOMENT ON STAGE
         </h1>
       </div>
@@ -50,25 +50,45 @@ const StageMoment = ({ className = "" }) => {
                     LIFT YOUR SPIRITS
                   </h1>
                 </div>
-                <div className="w-[939px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-xl text-red-200 font-rammetto-one">
-                  <div className="flex flex-row items-start justify-start relative">
-                    <img
-                      className="h-[500px] w-[500px] absolute !m-[0] bottom-[-425px] left-[-434px] overflow-hidden shrink-0 object-cover"
-                      alt=""
-                      src="/volume-button@2x.png"
-                    />
-                    <div className="h-[120px] w-[132.6px] flex flex-row items-start justify-start pt-5 px-5 pb-[13.7px] box-border gap-[10px]">
-                      <div className="h-[120px] w-[132.6px] flex flex-col items-start justify-start pt-[11px] px-0 pb-0 box-border shrink-0">
-                        <img
-                          className="self-stretch h-[120px] relative max-w-full overflow-hidden shrink-0"
-                          alt=""
-                          src="/volume-icon.svg"
-                        />
-                        <div className="relative inline-block min-w-[110px] whitespace-nowrap shrink-0 mq450:text-base">
-                        30% off
+                <div class="w-full relative bg-black overflow-hidden flex flex-row items-start justify-between pt-[157px] px-[100px] pb-[216px] box-border leading-[normal] tracking-[normal] gap-5 text-left text-[20px] text-red font-rammetto-one mq450:pl-5 mq450:pr-5 mq450:box-border mq975:pl-[50px] mq975:pr-[50px] mq975:box-border mq1025:flex-wrap">
+                  <div class="w-[84.6px] flex flex-col items-start justify-start pt-[325px] pb-0 pl-0 pr-3.5 box-border mq450:pt-[211px] mq450:box-border">
+                    <div class="self-stretch h-[60px] [backdrop-filter:blur(8px)] bg-black flex flex-col items-start justify-center py-[30px] px-2.5 box-border [transform:_rotate(180deg)]">
+                      <img
+                        class="self-stretch h-[17.3px] relative max-w-full overflow-hidden shrink-0 [transform:_rotate(-180deg)]"
+                        loading="lazy"
+                        alt=""
+                        src="/arrow-1.svg"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-[618.6px] flex flex-col items-start justify-start gap-10 max-w-full gap-5">
+                    <div class="self-stretch h-[560px] flex flex-row items-start justify-end max-w-full">
+                      <div class="self-stretch w-[567.6px] flex flex-col items-end justify-start py-[43px] px-[11px] box-border relative max-w-full">
+                        <div class="w-full h-full absolute !m-[0] top-[0px] right-[0.5px] bottom-[0px] left-[0px]">
+                          <img
+                            class="absolute top-[60px] left-[0px] w-[500px] h-[500px] overflow-hidden object-cover"
+                            alt=""
+                            src="/image 1.png"
+                          />
+
+                          <img
+                            class="absolute top-[0px] left-[434.5px] w-[132.6px] h-[120px]"
+                            loading="lazy"
+                            alt=""
+                            src="/Frame 2610624.png"
+                          />
+                        </div>
+                        <div class="text-red-200 relative inline-block min-w-[110px] z-[1] mq450:text-[16px]">
+                          30% off
+                        </div>
                       </div>
-                      </div>
-                      
+                    </div>
+                    <h3 class="m-0 relative text-[30px] font-normal text-red-100 font-[inherit] inline-block max-w-full mq450:text-[18px] mq975:text-[24px]">
+                      New album merchandise on sale
+                    </h3>
+                  </div>
+                  <div class="w-[70px] flex flex-col items-start justify-start pt-[325px] px-0 pb-0 box-border mq450:pt-[211px] mq450:box-border">
+                    <div class="self-stretch h-[60px] [backdrop-filter:blur(8px)] bg-black flex flex-col items-start justify-center py-[30px] px-2.5 box-border">
                     </div>
                   </div>
                 </div>
@@ -91,20 +111,6 @@ const StageMoment = ({ className = "" }) => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="h-[735px] w-[153.5px] flex flex-col items-start justify-start gap-[575px] ml-[-1340px]">
-              <img
-                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full"
-                alt=""
-                src="/-1.svg"
-              />
-              <div className="w-[70px] h-[60px] [backdrop-filter:blur(8px)] bg-black flex flex-col items-start justify-center py-[30px] px-2.5 box-border [transform:_rotate(180deg)]">
-                <img
-                  className="self-stretch h-[17.3px] relative max-w-full overflow-hidden shrink-0 [transform:_rotate(-180deg)]"
-                  alt=""
-                  src="/arrow-1.svg"
-                />
               </div>
             </div>
           </div>

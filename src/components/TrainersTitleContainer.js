@@ -6,11 +6,6 @@ const TrainersTitleContainer = ({ className = "" }) => {
       className={`ml-[8rem] self-stretch flex flex-row items-start justify-start pt-0 px-[50px] pb-[99px] box-border max-w-full shrink-0 text-left text-11xl text-red-200 font-rammetto-one mq450:pb-[27px] mq450:box-border mq1275:pb-16 mq1275:box-border mq750:pl-[25px] mq750:pr-[25px] mq750:box-border mq1100:pb-[42px] mq1100:box-border ${className}`}
     >
       <div className="flex-1 flex flex-col items-start justify-start gap-[59px] max-w-full mq750:gap-[29px]">
-        <div className="self-stretch flex flex-row items-start justify-center pt-0 pb-[21px] pr-[25px] pl-5">
-          <div className="relative mq450:text-lg mq750:text-5xl">
-            New album merchandise on sale
-          </div>
-        </div>
         <div className="self-stretch flex flex-col items-start justify-start gap-[40px] text-center text-61xl text-red-500 mq750:gap-[20px]">
           <div className="self-stretch h-[600px] flex flex-row flex-wrap items-center justify-between relative">
             <h1 className="!m-[0] h-[140px] w-[751px] absolute top-[70px] left-[0px] text-inherit font-normal font-inherit inline-block [text-shadow:2px_0_0_#f1d5ae,_0_2px_0_#f1d5ae,_-2px_0_0_#f1d5ae,_0_-2px_0_#f1d5ae] mq450:text-5xl mq750:text-21xl">
