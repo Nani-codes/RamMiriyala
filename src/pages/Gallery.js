@@ -12,15 +12,13 @@ const Gallery = () => {
     >
       <Navbar />
       <div className="mt-[10rem] ml-[8rem] w-100% fit-content relative bg-black overflow-hidden flex flex-row items-start justify-start pt-[15px] px-5 pb-[586px] box-border gap-[92px] leading-[normal] tracking-[normal] text-left text-xl text-red-100 font-manrope gap-[23px] gap-[46px] mq1050:h-auto">
-        <div className="w-40 flex flex-col items-start justify-start pt-[217px] px-0 pb-0 box-border text-center text-wheat-100 mq450:pt-[141px] mq450:box-border mq725:hidden">
-          <div className="self-stretch flex flex-col items-start justify-start gap-1">
-            <div className="border-wheat-100 border-b-[0.5px] border-solid flex flex-row items-start justify-start pt-1 px-14 pb-[3px]">
-              <div className="relative font-medium inline-block min-w-[48px] mq450:text-base">
-                2024
-              </div>
-            </div>
+        <div className=" w-[5rem] flex flex-col items-start justify-start px-0 pb-0 box-border text-center text-wheat-100 mq450:pt-[141px] mq450:box-border mq725:hidden">
+          <div className="fixed self-stretch flex flex-col items-start justify-start gap-1">
             <div className="self-stretch flex flex-row items-start justify-start py-0 px-[55px] text-red-600">
               <div className="flex-1 flex flex-col items-start justify-start gap-2">
+                <div className="w-12 relative font-medium flex items-center justify-center min-w-[48px] mq450:text-base">
+                  2024
+                </div>
                 <div className="w-12 relative font-medium flex items-center justify-center min-w-[48px] mq450:text-base">
                   2023
                 </div>
@@ -66,10 +64,10 @@ const Gallery = () => {
           <FrameComponent
             onTheOtherSideLive="NYE Gala 2024"
             liveAtMakauOn12thOfJuly="New year musical concert, Vijayawada"
-            antDesignspotifyOutlined="/antdesignspotifyoutlined1.svg"
-            mingcuteyoutubeLine="/mingcuteyoutubeline1.svg"
-            ritwitterXFill="/ritwitterxfill-1.svg"
-            mdiinstagram="/mdiinstagram-1.svg"
+            antDesignspotifyOutlined="/antdesignspotifyoutlined.svg"
+            mingcuteyoutubeLine="/mingcuteyoutubeline.svg"
+            ritwitterXFill="/ritwitterxfill.svg"
+            mdiinstagram="/mdiinstagram.svg"
             frame2610685="/one.png"
             frame2610686="/two.png"
             frame2610687="/three.png"
@@ -85,10 +83,10 @@ const Gallery = () => {
           <FrameComponent
             onTheOtherSideLive="Live @ Trops kitchen"
             liveAtMakauOn12thOfJuly="1st year anniversary celebrations of Trops kitchen"
-            antDesignspotifyOutlined="/antdesignspotifyoutlined2.svg"
-            mingcuteyoutubeLine="/mingcuteyoutubeline2.svg"
-            ritwitterXFill="/ritwitterxfill-2.svg"
-            mdiinstagram="/mdiinstagram-2.svg"
+            antDesignspotifyOutlined="/antdesignspotifyoutlined.svg"
+            mingcuteyoutubeLine="/mingcuteyoutubeline.svg"
+            ritwitterXFill="/ritwitterxfill.svg"
+            mdiinstagram="/mdiinstagram.svg"
             frame2610685="/one.png"
             frame2610686="/two.png"
             frame2610687="/three.png"
@@ -102,10 +100,10 @@ const Gallery = () => {
           <FrameComponent
             onTheOtherSideLive="Live @ Trops kitchen"
             liveAtMakauOn12thOfJuly="1st year anniversary celebrations of Trops kitchen"
-            antDesignspotifyOutlined="/antdesignspotifyoutlined2.svg"
-            mingcuteyoutubeLine="/mingcuteyoutubeline2.svg"
-            ritwitterXFill="/ritwitterxfill-2.svg"
-            mdiinstagram="/mdiinstagram-2.svg"
+            antDesignspotifyOutlined="/antdesignspotifyoutlined.svg"
+            mingcuteyoutubeLine="/mingcuteyoutubeline.svg"
+            ritwitterXFill="/ritwitterxfill.svg"
+            mdiinstagram="/mdiinstagram.svg"
             frame2610685="/one.png"
             frame2610686="/two.png"
             frame2610687="/three.png"
