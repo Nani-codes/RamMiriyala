@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const SingerDescription = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[90px] box-border max-w-full shrink-0 text-center text-31xl text-red-200 font-rammetto-one mq750:pb-[38px] mq750:box-border mq1100:pb-[58px] mq1100:box-border ${className}`}
+      className={`mt-[12rem] self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[90px] box-border max-w-full shrink-0 text-center text-31xl text-red-200 font-rammetto-one mq750:pb-[38px] mq750:box-border mq1100:pb-[58px] mq1100:box-border ${className}`}
     >
       <div className="flex-1 flex flex-row items-start justify-between pt-[17px] px-[100px] pb-[47px] box-border bg-[url('/public/noisygradients@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full gap-[20px] mq450:pl-5 mq450:pr-5 mq450:pb-5 mq450:box-border mq1275:flex-wrap mq750:pl-[50px] mq750:pr-[50px] mq750:box-border mq1100:pt-5 mq1100:pb-[31px] mq1100:box-border">
         <img
@@ -20,9 +20,7 @@ const SingerDescription = ({ className = "" }) => {
           />
         </div>
         <div className="w-[76px] flex flex-col items-start justify-start py-0 pr-[29px] pl-0 box-border">
-          <h3 className="m-0 self-stretch relative text-inherit leading-[80px] font-normal font-inherit mix-blend-difference z-[1] mq450:text-11xl mq450:leading-[48px] mq750:text-21xl mq750:leading-[64px]">
-            RAM.MIRYALA
-          </h3>
+          <img src="/RAM.MIRYALA.svg" alt="verticalname" />
         </div>
         <div className="w-[482px] flex flex-col items-start justify-start pt-[30px] px-0 pb-0 box-border max-w-full text-13xl text-wheat-100 font-manrope">
           <div className="self-stretch [backdrop-filter:blur(8px)] bg-gray-300 box-border flex flex-col items-start justify-start pt-[46px] px-[18px] pb-[50px] gap-[42px] max-w-full shrink-0 z-[1] border-t-[3px] border-solid border-red-200 border-r-[3px] mq450:pt-5 mq450:pb-[21px] mq450:box-border mq750:gap-[21px] mq1100:pt-[30px] mq1100:pb-8 mq1100:box-border">
