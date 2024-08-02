@@ -11,7 +11,7 @@ const Gallery = () => {
       }}
     >
       <Navbar />
-      <div className="mt-[10rem] ml-[8rem] w-100% h-[100vh] relative bg-black overflow-hidden flex flex-row items-start justify-start pt-[15px] px-5 pb-[586px] box-border gap-[92px] leading-[normal] tracking-[normal] text-left text-xl text-red-100 font-manrope gap-[23px] gap-[46px] mq1050:h-auto">
+      <div className="mt-[10rem] ml-[8rem] w-100% fit-content relative bg-black overflow-hidden flex flex-row items-start justify-start pt-[15px] px-5 pb-[586px] box-border gap-[92px] leading-[normal] tracking-[normal] text-left text-xl text-red-100 font-manrope gap-[23px] gap-[46px] mq1050:h-auto">
         <div className="w-40 flex flex-col items-start justify-start pt-[217px] px-0 pb-0 box-border text-center text-wheat-100 mq450:pt-[141px] mq450:box-border mq725:hidden">
           <div className="self-stretch flex flex-col items-start justify-start gap-1">
             <div className="border-wheat-100 border-b-[0.5px] border-solid flex flex-row items-start justify-start pt-1 px-14 pb-[3px]">
@@ -44,7 +44,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-        <main className="w-[1043px] flex flex-col items-start justify-start gap-[30px] max-w-[calc(100%_-_252px)] shrink-0 mq725:max-w-full">
+        <main className="w-[100%] flex flex-col items-start justify-start gap-[30px] max-w-[calc(100%_-_252px)] shrink-0 mq725:max-w-full">
           <FrameComponent
             onTheOtherSideLive="On the other side - Live"
             liveAtMakauOn12thOfJuly="Live at Makau on 12th of July"

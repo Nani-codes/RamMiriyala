@@ -4,16 +4,15 @@ function Events() {
   return (
     <div
       style={{
-        position: "relative",
-        width: "100%",
-        height: "fit-content",
-        background: "#000000",
+        "width": "100%",
+        "height": "fit-content",
+        "background": "#000000",
       }}
     >
       <Navbar />
-      <div class="mt-[10rem] ml-[8rem] w-full h-[1024px] relative bg-black overflow-hidden flex flex-row items-start justify-start pt-[0px] px-[172px] pb-0 box-border leading-[normal] tracking-[normal] text-left text-[34px] text-red-100 font-rammetto-one lg:pl-[86px] lg:pr-[86px] lg:box-border mq1050:h-auto mq450:pl-5 mq450:pr-5 mq450:box-border mq750:pl-[43px] mq750:pr-[43px] mq750:box-border">
-        <main class="w-[1040px] flex flex-col items-start justify-start pt-0 px-0 pb-[47px] box-border gap-5 min-h-[1067px] max-w-[calc(100%_-_0px)] shrink-0 mq1050:pb-[31px] mq1050:box-border mq450:pb-5 mq450:box-border">
-          <header class="self-stretch border-red-200 border-b-[1px] border-solid box-border flex flex-row items-center justify-start gap-10 top-[0] z-[99] sticky max-w-full text-center text-5xl text-red-100 font-rammetto-one gap-5">
+      <div class="mt-[10rem] w-[100%] fit-content relative bg-black  flex flex-row items-start justify-start pt-[0px] px-[172px] pb-0 box-border leading-[normal] tracking-[normal] text-left text-[34px] text-red-100 font-rammetto-one lg:pl-[86px] lg:pr-[86px] lg:box-border mq1050:h-auto mq450:pl-5 mq450:pr-5 mq450:box-border mq750:pl-[43px] mq750:pr-[43px] mq750:box-border">
+        <main class="w-[100%] flex flex-col items-start justify-start pt-0 px-0  box-border gap-5 shrink-0 mq1050:pb-[31px] mq1050:box-border mq450:pb-5 mq450:box-border">
+          <header class="self-stretch border-red-200 border-b-[1px] border-solid box-border flex flex-row items-center justify-start gap-10 top-[0]  text-center text-5xl text-red-100 font-rammetto-one gap-5">
             <img
               class="h-[110px] w-[110px] relative overflow-hidden shrink-0 object-cover"
               loading="lazy"
