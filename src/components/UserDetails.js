@@ -10,17 +10,18 @@ import PropTypes from "prop-types";
 const UserDetails = ({ className = "", onClose }) => {
   return (
     <div
-      className={`w-[1243px] relative [backdrop-filter:blur(10px)] bg-gray-100 box-border overflow-hidden flex flex-col items-start justify-start pt-4 pb-[68px] pr-[17px] pl-[168px] gap-[63px] leading-[normal] tracking-[normal] max-w-full max-h-full text-left text-11xl text-wheat-100 font-manrope border-[3px] border-solid border-red-200 mq450:gap-[16px] mq450:pl-5 mq450:box-border mq675:gap-[31px] mq675:pl-[84px] mq675:box-border ${className}`}
+      className={`w-[1243px] relative [backdrop-filter:blur(10px)] bg-gray-100 box-border overflow-hidden flex flex-col items-start justify-start pt-4 pb-[68px] pr-[17px] pl-[168px] gap-[25px] leading-[normal] tracking-[normal] max-w-full max-h-full text-left text-11xl text-wheat-100 font-manrope border-[3px] border-solid border-red-200 mq450:gap-[16px] mq450:pl-5 mq450:box-border mq675:gap-[31px] mq675:pl-[84px] mq675:box-border ${className}`}
     >
       <section className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[11px] box-border gap-[17px] max-w-full text-left text-15xl text-wheat-100 font-manrope">
-        <div className="self-stretch flex flex-row items-start justify-end">
+        <button className="bg-black self-stretch flex flex-row items-start justify-end">
           <img
-            className="h-10 w-10 relative overflow-hidden shrink-0"
+            className="h-10 w-10  relative overflow-hidden shrink-0"
+            onClick={onClose}
             loading="lazy"
             alt=""
             src="/mdicancelbold.svg"
           />
-        </div>
+        </button>
         <h3 className="m-0 relative text-inherit font-medium font-inherit inline-block max-w-full mq450:text-xl mq750:text-8xl">
           Don’t miss a detail... be the first to know what’s happening
         </h3>
