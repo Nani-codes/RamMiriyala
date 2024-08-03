@@ -22,7 +22,7 @@ const FrameComponent4 = ({ className = "" }) => {
       "width":"100%"
     }}>
       <header
-        className={`self-stretch bg-black overflow-hidden flex flex-row items-start justify-between py-2 pr-[38px] pl-[27rem] top-[0] z-[99] sticky gap-[20px] text-left text-15xl text-red-200 font-rammetto-one border-[1px] border-solid border-black mq450:pl-5 mq450:box-border mq750:pl-[280px] mq750:box-border ${className}`}
+        className={`self-stretch bg-black overflow-hidden flex flex-row items-start justify-between py-2 pr-[38px] pl-[27rem] top-[0] z-[99] sticky gap-[20px] text-left text-15xl text-red-200 font-rammetto-one border-[1px] border-solid border-black mq450:pl-5 mq450:box-border mq750:pl-[280px] mq750:box-border mq750:hidden ${className}`}
       >
         <div className="flex flex-col items-start justify-start pt-px px-0 pb-0">
           <a href="/"className=" [text-decoration:none] text-red-200 relative whitespace-nowrap">RAM MIRYALA</a>
