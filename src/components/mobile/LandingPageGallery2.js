@@ -19,7 +19,7 @@ const LandingPageGallery2 = () => {
             <img
               className="flex-1 relative max-w-full overflow-hidden max-h-full"
               alt=""
-              src="/arrow-11.svg"
+              src="/arrow-1-1.svg"
             />
             <div className="relative font-semibold">Go to Gallery</div>
           </div>
@@ -37,26 +37,30 @@ const LandingPageGallery2 = () => {
               <div className="absolute top-[calc(50%_-_74.5px)] left-[calc(50%_-_102px)] bg-red-200 border-red-200 border-[2px] border-solid overflow-hidden flex flex-row items-center justify-center py-5 px-10">
                 <div className="relative font-semibold">Join Community</div>
               </div>
-              <div className="text-wheat-100 absolute top-[91px] left-[calc(50%_-_77.5px)] flex flex-row items-center justify-start gap-5">
+              <div className="self-stretch flex flex-row items-center justify-between pt-[80px] pl-6 pr-[25px] gap-5">
                 <img
-                  className="w-6 relative h-6 overflow-hidden shrink-0"
+                  className="h-[25px] w-[25px] relative overflow-hidden shrink-0 min-h-[25px]"
+                  loading="lazy"
                   alt=""
-                  src="/antdesignspotifyoutlined1.svg"
+                  src="/antdesignspotifyoutlined.svg"
                 />
                 <img
-                  className="w-6 relative h-6 overflow-hidden shrink-0"
+                  className="h-[25px] w-[25px] relative overflow-hidden shrink-0 min-h-[25px]"
+                  loading="lazy"
                   alt=""
-                  src="/mingcuteyoutubeline1.svg"
+                  src="/mingcuteyoutubeline.svg"
                 />
                 <img
-                  className="w-6 relative h-6 overflow-hidden shrink-0"
+                  className="h-[25px] w-[25px] relative overflow-hidden shrink-0 min-h-[25px]"
+                  loading="lazy"
                   alt=""
-                  src="/ritwitterxfill1.svg"
+                  src="/ritwitterxfill.svg"
                 />
                 <img
-                  className="w-6 relative h-6 overflow-hidden shrink-0"
+                  className="h-[25px] w-[25px] relative overflow-hidden shrink-0 min-h-[25px]"
+                  loading="lazy"
                   alt=""
-                  src="/mdiinstagram1.svg"
+                  src="/mdiinstagram.svg"
                 />
               </div>
             </div>

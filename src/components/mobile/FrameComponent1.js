@@ -41,7 +41,7 @@ const FrameComponent1 = ({
         src={screenshot20240708At11314}
         style={screenshot20240708At1131Style}
       />
-      <header className="absolute top-[calc(50%_-_45px)] left-[calc(50%_-_180px)] w-full overflow-hidden flex flex-row items-start justify-start py-[15px] px-5 box-border gap-0.5 h-full z-[1] text-left text-5xl text-red-100 font-rammetto-one">
+      <header className="backdrop-filter:blur(8px)] absolute top-[calc(50%_-_45px)] left-[calc(50%_-_180px)] w-full overflow-hidden flex flex-row items-start justify-start py-[15px] px-5 box-border gap-0.5 h-full z-[1] text-left text-5xl text-red-100 font-rammetto-one">
         <div className="h-[41px] flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0 box-border">
           <a
             className="[text-decoration:none] relative text-[inherit]"
@@ -50,7 +50,7 @@ const FrameComponent1 = ({
             {alaiBalai}
           </a>
         </div>
-        <div className="h-[60px] w-[70px] [backdrop-filter:blur(8px)] flex flex-col items-start justify-center py-[30px] px-2.5 box-border">
+        <div className="h-[60px] w-[70px] [ flex flex-col items-start justify-center py-[30px] px-2.5 box-border">
           <img
             className="self-stretch h-[17.3px] relative max-w-full overflow-hidden shrink-0"
             loading="lazy"

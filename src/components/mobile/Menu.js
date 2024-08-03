@@ -32,25 +32,49 @@ const Menu = ({ className = "" }) => {
             <>
               <section className="self-stretch flex flex-col items-center justify-start gap-[15px] text-left text-5xl text-red-100 font-manrope">
                 <div className="flex flex-row items-center justify-center py-2.5 px-[66px]">
-                  <a className="[text-decoration:none] relative text-[inherit] inline-block min-w-[67px]">
-                    Music
+                  <a
+                    href="/music"
+                    className="[text-decoration:none] relative text-[inherit] inline-block min-w-[67px] group relative w-max hover:text-wheat-100"
+                  >
+                    <span>Music</span>
+                    <span className="absolute -bottom-1 left-0 w-150pxtransition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
                   </a>
                 </div>
                 <div className="flex flex-row items-center justify-center py-2.5 px-[66px]">
-                  <a className="[text-decoration:none] relative text-[inherit] inline-block min-w-[68px]">
-                    About
+                <a
+                    href="/about"
+                    className="[text-decoration:none] relative text-[inherit] inline-block min-w-[67px] group relative w-max hover:text-wheat-100"
+                  >
+                    <span>About</span>
+                    <span className="absolute -bottom-1 left-0 w-150px transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
                   </a>
                 </div>
                 <div className="flex flex-row items-center justify-center py-2.5 px-[62px]">
-                  <a className="[text-decoration:none] relative text-[inherit] inline-block min-w-[76px]">
-                    Events
+                <a
+                    href="/Events"
+                    className="[text-decoration:none] relative text-[inherit] inline-block min-w-[67px] group relative w-max hover:text-wheat-100"
+                  >
+                    <span>Events</span>
+                    <span className="absolute -bottom-1 left-0 w-150px transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
                   </a>
                 </div>
                 <div className="flex flex-row items-center justify-center py-2.5 px-[71px]">
-                  <div className="relative inline-block min-w-[58px]">Shop</div>
+                <a
+                    href="/news"
+                    className="[text-decoration:none] relative text-[inherit] inline-block min-w-[67px] group relative w-max hover:text-wheat-100"
+                  >
+                    <span>News</span>
+                    <span className="absolute -bottom-1 left-0 w-150px transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
+                  </a>
                 </div>
                 <div className="flex flex-row items-center justify-center py-2.5 px-[61px]">
-                  <div className="relative inline-block min-w-[78px]">Gallery</div>
+                <a
+                    href="/gallery"
+                    className="[text-decoration:none] relative text-[inherit] inline-block min-w-[67px] group relative w-max hover:text-wheat-100"
+                  >
+                    <span>Gallery</span>
+                    <span className="absolute -bottom-1 left-0 w-150px transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
+                  </a>
                 </div>
                 <div className="self-stretch border-red-100 border-[2px] border-solid flex flex-row items-center justify-center py-[7px] px-[22px]">
                   <div className="relative">Join community</div>

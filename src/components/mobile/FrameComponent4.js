@@ -22,7 +22,7 @@ const FrameComponent4 = ({ className = "" }) => {
               className="self-stretch h-[17.3px] relative max-w-full overflow-hidden shrink-0"
               loading="lazy"
               alt=""
-              src="/arrow-1.svg"
+              src="/arrow-1-1.svg"
             />
           </div>
           <div className="h-3 relative font-semibold inline-block min-w-[72px]">
