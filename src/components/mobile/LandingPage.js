@@ -8,19 +8,6 @@ const LandingPage = () => {
         alt=""
         src="/1709385318633-3-1@2x.png"
       />
-      <header className="w-full h-[] !m-[0] absolute top-[0px] right-[-2px] left-[0px] bg-black border-black border-[1px] border-solid box-border overflow-hidden flex flex-row items-start justify-between py-2.5 pl-5 pr-[22px] gap-5 z-[1] text-left text-xl text-red-100 font-rammetto-one">
-        <a className="[text-decoration:none] relative text-[inherit] whitespace-nowrap">
-          RAM MIRYALA
-        </a>
-        <div className="w-11 bg-black border-red-100 border-[2px] border-solid box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-0.5 px-2">
-          <img
-            className="h-6 w-6 relative overflow-hidden shrink-0"
-            loading="lazy"
-            alt=""
-            src="/cil_menu.svg"
-          />
-        </div>
-      </header>
       <Event1 />
     </div>
   );
