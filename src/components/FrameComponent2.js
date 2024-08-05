@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
 const calculateTimeLeft = () => {
-  const difference = +new Date("2024-08-03T12:00:00") - +new Date();
+  const difference = +new Date("2024-09-03T12:00:00") - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {

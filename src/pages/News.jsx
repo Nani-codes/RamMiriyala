@@ -17,7 +17,7 @@ function Music() {
       style={{
         position: "relative",
         width: "100%",
-        height: "fit-content",
+        height: "100vh",
         background: "#000000",
       }}
     >
@@ -29,7 +29,7 @@ function Music() {
           style={{
             position: "relative",
             width: "100%",
-            height: "fit-content",
+            height: "100vh",
             background: "#000000",
           }}
         >

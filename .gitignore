@@ -1,7 +1,7 @@
 
 # Dependencies
 /node_modules
-
+public/SignalSetup.exe
 # Production
 /build
 
