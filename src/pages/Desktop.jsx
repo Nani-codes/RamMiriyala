@@ -60,7 +60,7 @@ const Desktop = () => {
             <LandingPageShop/>
             <LandingPageGallery1/>
             <LandingPageGallery2/>
-
+            <Footer></Footer>
           </div>
         </MediaQuery>
       </div>

@@ -41,7 +41,6 @@ const LandingPageGallery1 = ({ className = "" }) => {
           src="/frame-2610632@2x.png"
         />
       </div>
-      <div className="absolute top-[640px] left-[calc(50%_-_180px)] w-[360px] h-[640px]" />
     </div>
   );
 };

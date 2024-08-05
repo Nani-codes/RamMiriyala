@@ -1,11 +1,18 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
+import PortalPopup from "../PortalPopup";
+import UserDetails from "../UserDetails";
 
 const Menu = ({ className = "" }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const togglePopup = () => {
+    setIsPopupOpen(!isPopupOpen);
   };
 
   return (
@@ -37,7 +44,7 @@ const Menu = ({ className = "" }) => {
                     className="[text-decoration:none] relative text-[inherit] inline-block min-w-[67px] group relative w-max hover:text-wheat-100"
                   >
                     <span>Music</span>
-                    <span className="absolute -bottom-1 left-0 w-150pxtransition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
+                    <span className="absolute -bottom-1 left-0 w-150px transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
                   </a>
                 </div>
                 <div className="flex flex-row items-center justify-center py-2.5 px-[66px]">
@@ -85,11 +92,14 @@ const Menu = ({ className = "" }) => {
                     <span className="absolute -bottom-1 left-0 w-150px transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
                   </a>
                 </div>
-                <div className="self-stretch border-red-100 border-[2px] border-solid flex flex-row items-center justify-center py-[7px] px-[22px]">
+                <div
+                  className="self-stretch border-red-100 border-[2px] border-solid flex flex-row items-center justify-center py-[7px] px-[22px] cursor-pointer"
+                  onClick={togglePopup}
+                >
                   <div className="relative">Join community</div>
                 </div>
               </section>
-              <div className="self-stretch flex flex-row items-center justify-between pt-[15px] pl-6 pr-[25px] gap-5">
+              <div className="mb-[16rem] self-stretch flex flex-row items-center justify-between pt-[15px] pl-6 pr-[25px] ">
                 <img
                   className="h-[25px] w-[25px] relative overflow-hidden shrink-0 min-h-[25px]"
                   loading="lazy"
@@ -114,21 +124,16 @@ const Menu = ({ className = "" }) => {
                   alt=""
                   src="/mdiinstagram.svg"
                 />
-            
               </div>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
             </>
           )}
         </main>
       </div>
+      {isPopupOpen && (
+        <PortalPopup onOutsideClick={togglePopup} overlayColor="rgba(0, 0, 0, 0.5)">
+          <UserDetails onClose={togglePopup} />
+        </PortalPopup>
+      )}
     </div>
   );
 };
