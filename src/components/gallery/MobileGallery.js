@@ -38,42 +38,42 @@ const MobileGalleryPage = () => {
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/One.png"
+                src="/one.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Two.png"
+                src="/two.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Three.png"
+                src="/three.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Four.png"
+                src="/four.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/One.png"
+                src="/one.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Two.png"
+                src="/two.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Three.png"
+                src="/three.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Four.png"
+                src="/four.png"
               />
 
               <div className="w-[90px] h-[120px] bg-[url('/public/frame-2610693@3x.png')] bg-cover bg-no-repeat bg-[top] relative">
@@ -122,42 +122,42 @@ const MobileGalleryPage = () => {
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/One.png"
+                src="/one.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Two.png"
+                src="/two.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Three.png"
+                src="/three.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Four.png"
+                src="/four.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/One.png"
+                src="/one.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Two.png"
+                src="/two.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Three.png"
+                src="/three.png"
               />
               <img
                 className="w-[90px] h-[120px] object-cover"
                 alt=""
-                src="/Four.png"
+                src="/four.png"
               />
               <div className="w-[90px] h-[120px] bg-[url('/public/frame-26106931@3x.png')] bg-cover bg-no-repeat bg-[top] relative">
                 <div className="absolute inset-0 backdrop-blur-sm bg-black bg-opacity-50 flex items-center justify-center">
