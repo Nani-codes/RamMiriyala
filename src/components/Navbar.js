@@ -7,7 +7,6 @@ const navLinks = [
   { title: "Music", url: "/Music" },
   { title: "About", url: "/About" },
   { title: "Events", url: "/Events" },
-  { title: "News", url: "/News" },
   { title: "Shop", url: "/Shop" },
   { title: "Gallery", url: "/Gallery" },
 ];

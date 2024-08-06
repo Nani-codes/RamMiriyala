@@ -67,15 +67,6 @@ const Menu = ({ className = "" }) => {
                 </div>
                 <div className="flex flex-row items-center justify-center py-2.5 px-[71px]">
                   <a
-                    href="/news"
-                    className="[text-decoration:none] relative text-[inherit] inline-block min-w-[67px] group relative w-max hover:text-wheat-100"
-                  >
-                    <span>News</span>
-                    <span className="absolute -bottom-1 left-0 w-150px transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
-                  </a>
-                </div>
-                <div className="flex flex-row items-center justify-center py-2.5 px-[71px]">
-                  <a
                     href="/shop"
                     className="[text-decoration:none] relative text-[inherit] inline-block min-w-[67px] group relative w-max hover:text-wheat-100"
                   >

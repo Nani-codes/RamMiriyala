@@ -24,10 +24,6 @@ const InstanceContainer = ({ className = "" }) => {
             <span>Events</span>
             <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
           </a>
-          <a href="/News" class="[text-decoration:none] relative text-[inherit] inline-block min-w-[94px] mq450:text-xl mq750:text-8xl tm-6 group relative w-max hover:text-wheat-100 ">
-            <span>News</span>
-            <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
-          </a>
           <a href="/Shop" class="[text-decoration:none] relative text-[inherit] inline-block min-w-[94px] mq450:text-xl mq750:text-8xl tm-6 group relative w-max hover:text-wheat-100 ">
             <span>Shop</span>
             <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-wheat-100 group-hover:w-full"></span>
