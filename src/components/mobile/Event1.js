@@ -65,12 +65,6 @@ const Event1 = ({ className = "" }) => {
             <span className="font-manrope">sec</span>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-center py-2.5 px-1">
-          <div className="relative inline-block min-w-[79px]">
-            <span className="text-white">{timeLeft.seconds} </span>
-            <span className="font-manrope">sec</span>
-          </div>
-        </div>
       </footer>
     </section>
   );

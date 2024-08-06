@@ -37,7 +37,7 @@ const Menu = ({ className = "" }) => {
           </header>
           {menuOpen && (
             <>
-              <section className="self-stretch flex flex-col items-center justify-start gap-[15px] text-left text-5xl text-red-100 font-manrope">
+              <section className="self-stretch flex flex-col items-center justify-center gap-[15px] text-left text-5xl text-red-100 font-manrope">
                 <div className="flex flex-row items-center justify-center py-2.5 px-[66px]">
                   <a
                     href="/music"
@@ -93,13 +93,13 @@ const Menu = ({ className = "" }) => {
                   </a>
                 </div>
                 <div
-                  className="self-stretch border-red-100 border-[2px] border-solid flex flex-row items-center justify-center py-[7px] px-[22px] cursor-pointer"
+                  className="w-[15rem] ml-[5rem] self-stretch border-red-100 border-[2px] border-solid flex flex-row items-center justify-center py-[7px] px-[22px] cursor-pointer"
                   onClick={togglePopup}
                 >
                   <div className="relative">Join community</div>
                 </div>
               </section>
-              <div className="mb-[16rem] self-stretch flex flex-row items-center justify-between pt-[15px] pl-6 pr-[25px] ">
+              <div className="mb-[16rem] self-stretch flex flex-row items-center justify-between pt-[60px] pl-[4.5rem] pr-[44px] ">
                 <img
                   className="h-[25px] w-[25px] relative overflow-hidden shrink-0 min-h-[25px]"
                   loading="lazy"
