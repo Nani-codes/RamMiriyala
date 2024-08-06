@@ -18,7 +18,7 @@ const Menu = ({ className = "" }) => {
   return (
     <div className="relative">
       <div className="fixed top-0 left-0 right-0 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] z-50">
-        <main className="self-stretch [backdrop-filter:blur(8px)] overflow-hidden shrink-0 flex flex-col items-center justify-between box-border z-[1]">
+        <main className="self-stretch [backdrop-filter:blur(20px)] overflow-hidden shrink-0 flex flex-col items-center justify-between box-border z-[1]">
           <header className="w-full sticky top-0 bg-black border-black border-[1px] border-solid box-border overflow-hidden flex flex-row items-start justify-between py-2.5 pr-[22px] gap-5 z-[1] text-left text-xl text-red-100 font-rammetto-one">
             <a href="/" className="[text-decoration:none] ml-[1rem] relative text-[inherit] whitespace-nowrap">
               RAM MIRYALA

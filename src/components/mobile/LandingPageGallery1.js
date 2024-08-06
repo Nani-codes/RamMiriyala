@@ -11,7 +11,7 @@ const LandingPageGallery1 = ({ className = "" }) => {
           alt=""
           src="/frame-2610613@2x.png"
         />
-        <div className="relative tracking-[0.01em] text-wheat-200 [text-shadow:2px_0_0_#ffd293,_0_2px_0_#ffd293,_-2px_0_0_#ffd293,_0_-2px_0_#ffd293]">
+        <div className="relative tracking-[0.01em] text-black [text-shadow:2px_0_0_#ffd293,_0_2px_0_#ffd293,_-2px_0_0_#ffd293,_0_-2px_0_#ffd293]">
           RAM MIRYALA
         </div>
         <div className="relative tracking-[0.01em]">EVENT @</div>
@@ -20,7 +20,7 @@ const LandingPageGallery1 = ({ className = "" }) => {
           alt=""
           src="/frame-2610627@2x.png"
         />
-        <div className="relative tracking-[0.01em] text-wheat-200 [text-shadow:2px_0_0_#ffd293,_0_2px_0_#ffd293,_-2px_0_0_#ffd293,_0_-2px_0_#ffd293]">
+        <div className="relative tracking-[0.01em] text-black [text-shadow:2px_0_0_#ffd293,_0_2px_0_#ffd293,_-2px_0_0_#ffd293,_0_-2px_0_#ffd293]">
           MAKAU
         </div>
         <img

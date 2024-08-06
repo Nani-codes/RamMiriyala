@@ -9,7 +9,7 @@ const LandingPageEvent = ({ className = "" }) => {
     >
       <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-10 box-border max-w-full">
         <h1 className="m-0 w-[100%] relative text-inherit font-normal font-inherit inline-block shrink-0 max-w-[103%] mq450:text-5xl mq750:text-21xl">
-          NEVER MISS A MOMENT ON STAGE
+          NEVER MISS A <br/> MOMENT ON STAGE
         </h1>
       </div>
       <div className="  w-[100%] flex flex-col items-end justify-start gap-[80px] max-w-[100%] shrink-0 text-5xl text-wheat-100 font-manrope mq450:gap-[20px] mq750:gap-[40px]">

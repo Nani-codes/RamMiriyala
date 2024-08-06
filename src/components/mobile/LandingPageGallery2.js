@@ -1,8 +1,8 @@
 const LandingPageGallery2 = () => {
     return (
-      <div className="w-full relative bg-black h-[250px] text-left text-5xl text-wheat-200 font-manrope">
+      <div className="w-full relative bg-black h-[250px] text-left text-5xl text-black font-manrope">
         <div className="absolute top-[0px] left-[calc(50%_-_181px)] w-[360px] flex flex-row flex-wrap items-center justify-between text-center font-rammetto-one">
-          <div className="relative tracking-[0.01em] [text-shadow:2px_0_0_#ffd293,_0_2px_0_#ffd293,_-2px_0_0_#ffd293,_0_-2px_0_#ffd293]">
+          <div className="relative tracking-[0.01em] tex-black [text-shadow:2px_0_0_#ffd293,_0_2px_0_#ffd293,_-2px_0_0_#ffd293,_0_-2px_0_#ffd293]">
             BEST PARTY
           </div>
           <img

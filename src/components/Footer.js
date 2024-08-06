@@ -71,12 +71,7 @@ const Footer = ({ className = "" }) => {
           <div className="h-[30px] flex flex-row items-start justify-start gap-[7px]">
             <div className="flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0">
               <div className="relative mq450:text-base">
-                All rights reserved
-              </div>
-            </div>
-            <div className="h-[31px] w-[31px] rounded-21xl box-border flex flex-row items-start justify-start py-[1.5px] pr-[9px] pl-2.5 text-center border-[1px] border-solid border-wheat-400">
-              <div className="relative inline-block min-w-[10px] mq450:text-base">
-                C
+                All rights reserved &copy;
               </div>
             </div>
           </div>
