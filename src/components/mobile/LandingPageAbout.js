@@ -12,9 +12,7 @@ const LandingPageAbout = ({ className = "" }) => {
           src="/noisygradients@2x.png"
         />
         <div className="h-[316px] w-[296px] flex flex-row items-start justify-start pt-[30px] px-0 pb-0 box-border max-w-full">
-          <div className="w-[76px] flex flex-col items-start justify-start py-0 pr-[29px] pl-0 box-border">
-            <img src="/RAM.MIRYALA.svg" alt="verticalname" />
-          </div>
+
           <img
             className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[1]"
             loading="lazy"
@@ -23,7 +21,7 @@ const LandingPageAbout = ({ className = "" }) => {
           />
         </div>
 
-        <div className="w-[300px] h-[] ml-[100px] flex flex-col items-start justify-start pt-[30px] px-0 pb-0 box-border max-w-full text-13xl text-wheat-100 font-manrope">
+        <div className="w-[300px] flex flex-col items-start justify-start pt-[30px] px-0 pb-0 box-border max-w-full text-13xl text-wheat-100 font-manrope">
           <div className="self-stretch [backdrop-filter:blur(8px)] bg-gray-300 box-border flex flex-col items-start justify-start pt-[46px] px-[18px] pb-[50px] gap-[42px] max-w-full shrink-0 z-[1] border-t-[3px] border-solid border-red-200 border-r-[3px] mq450:pt-5 mq450:pb-[21px] mq450:box-border mq750:gap-[21px] mq1100:pt-[30px] mq1100:pb-8 mq1100:box-border">
             <div className="self-stretch relative mq450:text-lgi mq750:text-7xl">
               Ram Miriyala is an Indian playback singer, record producer, music

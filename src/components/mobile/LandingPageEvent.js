@@ -13,7 +13,7 @@ const LandingPageEvent = ({ className = "" }) => {
         </h1>
       </div>
       <div className="  w-[100%] flex flex-col items-end justify-start gap-[80px] max-w-[100%] shrink-0 text-5xl text-wheat-100 font-manrope mq450:gap-[20px] mq750:gap-[40px]">
-        <div className=" w-[100%] overflow-x-auto flex flex-row items-center justify-start py-0 pr-0 pl-5 box-border gap-[50px] max-w-full mq750:gap-[25px]">
+        <div className=" w-[100%] overflow-x-auto flex flex-row items-center justify-start py-0 pr-0 box-border gap-[50px] max-w-full mq750:gap-[25px]">
           <EventImage emptyOne="/frame-2610613@2x.png" />
           <EventImage emptyOne="/frame-2610631@2x.png" />
           <EventImage emptyOne="/frame-2610629@2x.png" />

@@ -26,10 +26,6 @@ const LandingPageMusic = () => {
           </div>
         </header>
       </section>
-      <FrameComponent1
-        screenshot20240708At11314="/screenshot-20240708-at-113148am-1-2@2x.png"
-        alaiBalai="Alai balai"
-      />
       <FrameComponent4 />
     </div>
   );
