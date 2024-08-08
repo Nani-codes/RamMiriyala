@@ -35,8 +35,8 @@ const LandingPageAbout = ({ className = "" }) => {
               href="/about"
               className="[text-decoration:none] self-stretch h-[62px] flex flex-row items-center justify-center py-0 pr-4 pl-[18px] box-border max-w-full text-left text-11xl text-red-200 mq450:h-auto"
             >
-              <div className="flex-1 [backdrop-filter:blur(8px)] box-border overflow-hidden flex flex-row items-start justify-start pt-5 pb-[13.7px] pr-[17px] pl-5 gap-[10px] min-h-[65px] max-w-full shrink-0 border-[3px] border-solid border-red-200 mq450:flex-wrap mq450:justify-center">
-                <div className="h-[17.3px] flex-1 flex flex-col items-start justify-start pt-[11px] px-0 pb-0 box-border min-w-[130px]">
+              <div className="flex-1 [backdrop-filter:blur(8px)] box-border overflow-hidden flex flex-row items-start justify-start pt-5 pb-[13.7px] pr-[17px] pl-5 gap-[10px] min-h-[65px] max-w-full shrink-0 border-[3px] border-solid border-red-200 mq450:justify-center">
+                <div className="h-[17.3px] flex-1 flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border min-w-[5rem]">
                   <img
                     className="self-stretch h-[17.3px] relative max-w-full overflow-hidden shrink-0"
                     alt=""

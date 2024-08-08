@@ -15,9 +15,14 @@ const EventsPage = () => {
                 July
               </div>
             </div>
-            <div className="border-red-100 border-[2px] border-solid box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-2 px-4 text-left text-base font-manrope">
-              <div className="relative font-medium">Book now</div>
-            </div>
+            <a
+              href="https://in.bookmyshow.com/events/ram-miriyala-live-heart-cup-coffee-gachibowli/ET00407348"
+              className="[text-decoration:none] text-red-100"
+            >
+              <div className="border-red-100 border-[2px] border-solid box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-2 px-4 text-left text-base font-manrope">
+                <div className="relative font-medium">Book now</div>
+              </div>
+            </a>
           </div>
           <div className="self-stretch flex flex-row items-center justify-between py-0 px-2.5 text-left text-wheat-100 font-manrope">
             <div className="w-[212px] flex flex-col items-start justify-start">
@@ -48,9 +53,14 @@ const EventsPage = () => {
                 July
               </div>
             </div>
-            <div className="border-red-100 border-[2px] border-solid box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-2 px-4 text-left text-base font-manrope">
-              <div className="relative font-medium">Book now</div>
-            </div>
+            <a
+              href="https://in.bookmyshow.com/events/ram-miriyala-live-heart-cup-coffee-gachibowli/ET00407348"
+              className="[text-decoration:none] text-red-100"
+            >
+              <div className="border-red-100 border-[2px] border-solid box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-2 px-4 text-left text-base font-manrope">
+                <div className="relative font-medium">Book now</div>
+              </div>
+            </a>
           </div>
           <div className="self-stretch flex flex-row items-center justify-between py-0 px-2.5 text-left text-wheat-100 font-manrope">
             <div className="w-[212px] flex flex-col items-start justify-start">
@@ -81,9 +91,14 @@ const EventsPage = () => {
                 July
               </div>
             </div>
-            <div className="border-red-100 border-[2px] border-solid box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-2 px-4 text-left text-base font-manrope">
-              <div className="relative font-medium">Book now</div>
-            </div>
+            <a
+              href="https://in.bookmyshow.com/events/ram-miriyala-live-heart-cup-coffee-gachibowli/ET00407348"
+              className="[text-decoration:none] text-red-100"
+            >
+              <div className="border-red-100 border-[2px] border-solid box-border overflow-hidden shrink-0 flex flex-row items-center justify-center py-2 px-4 text-left text-base font-manrope">
+                <div className="relative font-medium">Book now</div>
+              </div>
+            </a>
           </div>
           <div className="self-stretch flex flex-row items-center justify-between py-0 px-2.5 text-left text-wheat-100 font-manrope">
             <div className="w-[212px] flex flex-col items-start justify-start">

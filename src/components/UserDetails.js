@@ -88,30 +88,38 @@ const UserDetails = ({ className = "", onClose }) => {
             </div>
           </div>
           <div className="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap mq450:justify-center">
-            <img
-              className="h-[50px] w-[50px] relative overflow-hidden shrink-0 min-h-[50px]"
-              loading="lazy"
-              alt=""
-              src="/antdesignspotifyoutlined1.svg"
-            />
-            <img
-              className="h-[50px] w-[50px] relative overflow-hidden shrink-0 min-h-[50px]"
-              loading="lazy"
-              alt=""
-              src="/mingcuteyoutubeline1.svg"
-            />
-            <img
-              className="h-[50px] w-[50px] relative overflow-hidden shrink-0 min-h-[50px]"
-              loading="lazy"
-              alt=""
-              src="/ritwitterxfill1.svg"
-            />
-            <img
-              className="h-[50px] w-[50px] relative overflow-hidden shrink-0 min-h-[50px]"
-              loading="lazy"
-              alt=""
-              src="/mdiinstagram1.svg"
-            />
+            <a href="https://open.spotify.com/artist/4A2XSc4OJjuPY4l6NjnrDj?si=u0O6cPUQTE-QrV8a8wSW2w">
+              <img
+                className="h-[50px] w-[50px] relative overflow-hidden shrink-0 min-h-[50px]"
+                loading="lazy"
+                alt=""
+                src="/antdesignspotifyoutlined1.svg"
+              />
+            </a>
+            <a href="https://youtube.com/@rammiriyalaofficial?si=n-MMJVoOsLNAO0HI">
+              <img
+                className="h-[50px] w-[50px] relative overflow-hidden shrink-0 min-h-[50px]"
+                loading="lazy"
+                alt=""
+                src="/mingcuteyoutubeline1.svg"
+              />
+            </a>
+            <a href="https://x.com/Ram_Miriyala?t=oxjYP1mADp_ynHs-D1kD3A&s=09">
+              <img
+                className="h-[50px] w-[50px] relative overflow-hidden shrink-0 min-h-[50px]"
+                loading="lazy"
+                alt=""
+                src="/ritwitterxfill1.svg"
+              />
+            </a>
+            <a href="https://www.instagram.com/miriyala_ram?igsh=MXNvZWc1MjYzbWRxaA==">
+              <img
+                className="h-[50px] w-[50px] relative overflow-hidden shrink-0 min-h-[50px]"
+                loading="lazy"
+                alt=""
+                src="/mdiinstagram1.svg"
+              />
+            </a>
           </div>
         </div>
       </div>

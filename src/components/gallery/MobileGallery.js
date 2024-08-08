@@ -1,4 +1,77 @@
+import { useState, useEffect, useRef } from "react";
+import PropTypes from "prop-types";
+
+const YearDropdown = ({ className = "" }) => {
+  return (
+    <div
+      className={`[backdrop-filter:blur(20px)] flex flex-col items-start justify-start pt-0 px-5 pb-1 gap-2 leading-[normal] tracking-[normal] text-center text-xl text-red-700 font-manrope ${className}`}
+    >
+      <div className="flex flex-col items-start justify-start gap-1 text-wheat-100">
+        <div className="border-wheat-100 border-b-[0.5px] border-solid flex flex-row items-start justify-start pt-1 px-14 pb-[3px]">
+          <a className="[text-decoration:none] relative font-medium text-[inherit] inline-block min-w-[48px]">
+            2024
+          </a>
+        </div>
+        <div className="flex flex-row items-start justify-start py-0 px-14 text-red-700">
+          <a className="[text-decoration:none] w-12 relative font-medium text-[inherit] flex items-center justify-center min-w-[48px]">
+            2023
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-row items-start justify-start py-0 px-14">
+        <a className="[text-decoration:none] relative font-medium text-[inherit] inline-block min-w-[48px]">
+          2022
+        </a>
+      </div>
+      <div className="flex flex-row items-start justify-start py-0 px-[58px]">
+        <a className="[text-decoration:none] relative font-medium text-[inherit] inline-block min-w-[44px]">
+          2021
+        </a>
+      </div>
+      <div className="flex flex-row items-start justify-start py-0 px-[55px]">
+        <a className="[text-decoration:none] relative font-medium text-[inherit] inline-block min-w-[49px]">
+          2020
+        </a>
+      </div>
+      <div className="flex flex-row items-start justify-start py-0 px-[57px]">
+        <a className="[text-decoration:none] relative font-medium text-[inherit] inline-block min-w-[45px]">
+          2019
+        </a>
+      </div>
+    </div>
+  );
+};
+
+YearDropdown.propTypes = {
+  className: PropTypes.string,
+};
+
 const MobileGalleryPage = () => {
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isDropdownOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isDropdownOpen]);
+
   return (
     <div className="fit-content bg-black text-white flex flex-col items-start justify-start pt-[6rem] px-5 pb-0 box-border overflow-auto">
       <div className="w-full text-left text-5xl text-red-100 font-rammetto-one">
@@ -75,7 +148,6 @@ const MobileGalleryPage = () => {
                 alt=""
                 src="/four.png"
               />
-
               <div className="w-[90px] h-[120px] bg-[url('/public/frame-2610693@3x.png')] bg-cover bg-no-repeat bg-[top] relative">
                 <div className="absolute inset-0 backdrop-blur-sm bg-black bg-opacity-50 flex items-center justify-center">
                   <img
@@ -176,13 +248,28 @@ const MobileGalleryPage = () => {
             </div>
           </div>
         </div>
-        <div className="mt-[4rem] absolute top-0 left-1/2 transform -translate-x-1/2 border-wheat-100 border-b-0.5 border-solid w-[360px] flex flex-row items-center justify-end py-2.5 px-5 gap-2.5 text-xl text-wheat-100 font-manrope">
-          <div className="font-medium">2024</div>
-          <img
-            className="w-6 h-6 overflow-hidden"
-            alt=""
-            src="/arrow_drop_down.svg"
-          />
+        <div
+          className="mt-[4rem] absolute top-0 left-1/2 transform -translate-x-1/2"
+          ref={dropdownRef}
+        >
+          <button
+            onClick={toggleDropdown}
+            className="bg-black text-white py-2 px-4 rounded-lg"
+          >
+            <div className="mt-[rem] absolute top-0 left-1/2 transform -translate-x-1/2 border-wheat-100 border-b-0.5 border-solid w-[360px] flex flex-row items-center justify-end py-2.5 px-5 gap-2.5 text-xl text-wheat-100 font-manrope">
+              <div className="font-medium">2024</div>
+              <img
+                className="w-6 h-6 overflow-hidden"
+                alt=""
+                src="/arrow_drop_down.svg"
+              />
+            </div>
+          </button>
+          {isDropdownOpen && (
+            <div className="absolute mt-2 text-white rounded-lg shadow-lg">
+              <YearDropdown />
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ const LandingPageShop = () => {
             src="/image 1.png"
           />
           <img
-            className="absolute h-1/4 w-[27.72%] top-[-12.5%] right-[-5.53%] bottom-[87.5%] left-[77.81%] max-w-full overflow-hidden max-h-full  z-[1]"
+            className="absolute h-1/4 w-[27.72%] top-[-12.5%] right-[-5.53%] bottom-[87.5%] left-[77.81%] fit-content  overflow-hidden z-[1]"
             loading="lazy"
             alt=""
             src="/Frame-offer 1.png"

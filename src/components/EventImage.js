@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const EventImage = ({ className = "", emptyOne }) => {
     return (
     <div
-      className={`h-[501px] w-[440px]  relative bg-black border-red-100 border-b-[1px] border-solid box-border overflow-hidden shrink-0 leading-[normal] tracking-[normal] mq340:h-auto mq340:min-h-[501] ${className}`}
+      className={`h-[501px] w-[420px]  relative bg-black border-red-100 border-b-[1px] border-solid box-border overflow-hidden shrink-0 leading-[normal] tracking-[normal] mq340:h-auto mq340:min-h-[501] ${className}`}
     >
       <img
         className="absolute h-full top-[0px] right-[-7px] bottom-[0px] max-h-full w-[557px] object-cover"
